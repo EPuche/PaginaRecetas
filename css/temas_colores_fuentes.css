@@ -1,0 +1,24 @@
+﻿/* URL Paleta de colores LIGHT: https://www.coloreasily.com/?colors=2f1404-fffcfa-ee722b-fef6f1-d45911 */
+/* URL Paleta de colores DARK: https://www.coloreasily.com/?colors=fbe5da-451b08-e65a19-772f0d-eb7b47 */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka');
+@import url('https://fonts.googleapis.com/css2?family=Molengo');
+
+:root {
+	--light-color-acento-1: #ee722b;
+	--light-color-acento-2: #fef6f1;
+	--light-color-acento-3: #d45911;
+	--dark-color-acento-1: #e65a19;
+	--dark-color-acento-2: #772f0d;
+	--dark-color-acento-3: #eb7b47;
+}
+ 
+ .light-theme {
+	color: #2f1404;
+	background-color: #fffcfa;
+}
+
+.dark-theme {
+	color: #fbe5da;
+	background-color: #451b08;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="/css/estilos-login.css">
+
+</head>
+<body>
+    <div class="formulario">
+        <h1>Iniciar Sesión</h1>
+        <form id="formulario" method="post">
+            <div class="ingresar">
+                <input type="email"placeholder="Email" id="email">
+             </div>
+             <div class="ingresar">
+                <input type="password" placeholder="Contraseña"id="password">
+             </div>
+
+            <div class="recordar">
+                <a href="recuperar-password.html">¿Olvidaste tu contraseña?</a>
+            </div>
+            <button type="submit" class="iniciar" id="iniciar"disabled>INICIAR SESIÓN</button>
+            <div class="registrarse">
+                <p>¿No tenés cuenta? <a href="registrarse.html">Registrate</a></p>
+            </div>
+            <div class="aceptar">
+                Al continuar, confirmo que acepto las
+                <a href="#">Condiciones</a> y las <a href="#">Políticas de Privacidad</a>
+            </div>
+        </form>
+    </div>
+    <script src="/js/vLogReg.js"></script>
+</body>
+</html>
+
+

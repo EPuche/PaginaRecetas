@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TodoRecetas</title>
+
+   <link rel="stylesheet" href="css/estilo-principal.css">
+   <link rel="stylesheet" href="_core/css/temas_colores_fuentes.css">
+   <script src="https://kit.fontawesome.com/3af66568eb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <header id="encabezado">
+      <div id="encabezado-principal">
+         <div class="logo">
+            <div class="iconos-link">
+            <a href="#" class="logo-link">
+               <h2>TodoRecetas</h2>
+            </a>
+         </div>
+         </div>
+         <div class="buscador">
+            <input type="text" name="buscador" id="buscador" placeholder="Buscar..."
+            autocomplete="off">
+            <button id="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div id="resultado">
+            </div>
+         </div>
+         <div class="iconos">
+            <div class="iconos-link">
+            <a href="html/login.html">Iniciar</a>
+         </div>
+         <div class="iconos-link">
+            <a href="html/registrarse.html">Registrarse</a>
+         </div>
+         </div>
+      </div>
+
+      <div class="carrusel">
+         <div class="slidesContainer">
+             <div class="slide">
+               <img src="./assets/img/mollejas_de_cordero_al_ajillo_73860_600 (1).jpg" alt="">
+             </div>
+             <div class="slide">
+                 <img src="./assets/img/ensalada_de_garbanzos_con_tomate_y_huevo_59524_600.jpg" alt="">
+             </div>
+             <div class="slide">
+                 <img src="./assets/img/pasta_con_pollo_verduras_y_soja_60545_600.jpg" alt="">
+             </div>
+ 
+             <div class="slide">
+                 <img src="./assets/img/cazuela_de_mariscos_y_verduras_22069_600.jpg" alt="">
+             </div>
+
+             <div class="slide">
+               <img src="./assets/img/brownie_red_velvet_cheesecake_70111_600.jpg" alt="">
+           </div>
+         </div>
+         
+         <div class="right">
+             <img src="./assets/img/chevron-right (2).svg" alt="">
+         </div>
+         <div class="left">
+             <img src="./assets/img/chevron-left (1).svg" alt="">
+         </div>
+     </div>
+
+   </header>
+
+
+
+   <main>
+      <nav id="navegacion-categoria">
+         <a href="#" id="tab-categoria-0" class="tab-categoria">Todos</a>
+         <a href="#" id="tab-categoria-1" class="tab-categoria">Carnes</a>
+         <a href="#" id="tab-categoria-2" class="tab-categoria">Ensaladas, Sopas y Cremas</a>
+         <a href="#" id="tab-categoria-3" class="tab-categoria">Pastas</a>
+         <a href="#" id="tab-categoria-4" class="tab-categoria">Pescados y Mariscos</a>
+         <a href="#" id="tab-categoria-5" class="tab-categoria">Postres</a>
+      </nav>
+
+      <section id="seccion-filtros">
+      </section>
+
+      <section id="seccion-categoria">
+         
+      </section>
+   </main>
+
+   <footer id="footer-principal">
+      <div id="footer-principal-izquierda">
+      <div class="iconos-link">
+        <a href="" >Quienes Somos</a>
+        </div>
+        <br>
+        <br>
+        <div class="iconos-link">
+        <a href="">Terminos y Condiciones</a>
+      </div>
+      </div>
+      </div>
+      <div id="footer-principal-centro"><img id="qr-code" src="assets/img/qr.png" /></div>
+      <div id="footer-principal-derecha">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+
+       <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+      </section>
+   </footer>
+
+   <!-- NO MODIFICAR: realiza la carga de datos -->
+   <script type="module" src="_core/js/cargar_datos.js"></script>
+   <script src="js/js_index.js"></script>
+</body>
+</html>

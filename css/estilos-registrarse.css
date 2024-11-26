@@ -1,0 +1,116 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Vidaloka", serif;
+}
+
+
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EE722B;
+   height: 100vh;
+}
+
+ .formulario{
+   width: 350px;
+   height: 400px;
+   background: white;
+   border-radius: 10px;
+}
+ .formulario h1{
+    text-align: center; 
+    font-size: 32px;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid silver;
+}
+
+
+ .formulario form{
+    padding: 5% 50px;
+    box-sizing: border-box;
+}
+ .formulario .ingresar  {
+    position: relative; 
+    margin: 30px 0;
+}
+
+ .ingresar input{
+    padding: 0 5%;
+   height: 100%;
+   width: 100%;
+    font-size:16px;
+}
+ .ingresar {
+    position: absolute;
+    top: 30%;
+    left: 5px;
+    color: grey;
+    font-size: 16px;
+}
+
+.iniciar{
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+ .iniciar,#iniciar a{
+    color:blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#iniciar  a{
+  color:white;
+}
+ .registrate{
+    width: 100%;
+    height: 45px;
+    background:gray;
+    cursor: pointer;
+    color :#FFF; 
+    margin-left: 4px;
+    border-radius: 15px;
+   }
+
+   .habilitar{
+      background:#ff7000;
+   }
+
+    .iniciar p {
+      color:black;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 12px;
+
+   }
+   .iniciar a{
+      color:blue;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 16px;
+      display: flex;
+      margin-left: 6px;
+   }
+
+   .iniciar a:hover{
+      text-decoration: underline;
+   }
+
+  .aceptar{
+     text-align: start;
+     margin-left: 12px;
+  }
+ .aceptar a{
+    color:blue;
+    cursor: pointer;
+    text-decoration: none;
+    max-width: 10px;
+ }
+
+ .aceptar a:hover{
+    text-decoration: underline;
+ }

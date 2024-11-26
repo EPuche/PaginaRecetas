@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Vidaloka", serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EE722B;
+    height: 100vh;
+}
+
+
+.formulario{
+    box-sizing: border-box;
+    width: 350px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 12px;
+
+}
+
+
+.titulo{
+    font-size: 14px;
+    border-bottom: 1px solid silver;
+    padding-top: 10px;
+    margin-bottom: 14px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+input , button{
+    margin-left: 12px;
+}
+
+/* tienen que  estar separados boton y boton3?*/
+.boton{
+    font-size: 10px;
+    display: flex;
+    height: 32px;
+    width: 110px;
+    background:gray;
+    cursor: pointer;
+    color :#FFF; 
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding-left: 5px;
+    padding-top: 8px;
+    border-radius: 15px;
+}
+
+
+
+.boton3{
+    background: gray;
+    color: #FFF;
+    height: 22px;
+    width: 110px;   
+    margin-bottom: 32px;
+    border-radius: 15px;
+}
+
+/*HABILITAR*/
+.habilitar{
+    background: #ff7000;
+}
+
+.datos{
+   display: flex;
+}
+
+.datos input{
+    max-width: 146px;
+}
+
+.datos2{
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-around;
+    width: 10px;
+    height: 20px;
+}
+
+.datos2 {
+    padding-left: 12px;
+}
+
+.datos2 input {
+    max-width: 90px;
+}
+.datos3{
+    margin-top: 5%; 
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.datos3 input{
+    max-width: 146px;
+}
+
+.boton2{
+    background: #ff7000;
+    color: #FFF;
+    height: 36px;
+    width: 110px;   
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datos Personales</title>
+    <link rel="stylesheet" href="../css/estilos-datos-personales.css" />
+  </head>
+  <body>
+    <div class="formulario" id="formulario">
+      <form method="post">
+         <div class="titulo">
+            <h1>Mi Usuario</h1>  
+         </div>
+      
+        <input type="email" placeholder="Email Principal"id="email"/>
+        <button class="boton" id="guardarcambios">GUARDAR CAMBIOS</button>
+        <input type="password" placeholder="Contraseña"/>
+        <button class="boton3">CAMBIAR</button>
+
+        <div class="titulo">
+         <h1>Datos Personales</h1>
+         </div>
+
+        <div class="datos">
+          <input type="text" placeholder="Nombre"id="nombre"/>
+          <input type="text" placeholder="Apellido"id="apellido"/>
+        </div>
+
+        <div class="datos2">
+          <select name="tipo" id="tipo">
+            <option value="">Tipo</option>
+            <option value="DNI">DNI</option>
+            <option value="CI">CI</option>
+            <option value="PASAPORTE">PASAPORTE</option>
+          </select>
+          <input type="number" placeholder="Nro Doc"id="doc"/>
+          <input type="date" placeholder="Fecha de Nac."id="fecha_nacimiento"/>
+        </div>
+
+        <div class="datos3">
+         <input type="tel" placeholder="Telefono Celular"id="telefono"/>
+         <input type="email" placeholder="Email Secundario"id="email_secundario"/>
+       </div>
+       <button class="boton"id="guardarBtn"disabled>GUARDAR CAMBIOS</button>
+      </form>
+    </div>
+  </body>
+  <script src="/Grupo10-- 30-09/js/vDatos.js"></script>
+</html>

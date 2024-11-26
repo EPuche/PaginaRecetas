@@ -1,0 +1,114 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Vidaloka", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ee722b;
+  height: 100vh;
+}
+
+.formulario {
+  width: 350px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+}
+.formulario h1 {
+  text-align: center;
+  font-size: 32px;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid silver;
+}
+
+.formulario form {
+  padding: 5% 50px;
+  box-sizing: border-box;
+}
+.formulario .ingresar {
+  position: relative;
+
+  margin: 30px 0;
+}
+
+.ingresar input {
+  padding: 0 5%;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+}
+.ingresar {
+  position: absolute;
+  top: 30%;
+  left: 5px;
+  color: grey;
+  font-size: 16px;
+}
+
+.recordar a {
+  display: flex;
+  justify-content: center;
+  margin: -15px 0 15px;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* boton*/
+.iniciar {
+  width: 100%;
+  height: 45px;
+  background: gray;
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 16px;
+  border-radius: 15px;
+}
+/* HABILITAR*/
+.habilitar {
+  background: #ee722b;
+}
+.registrarse {
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.registrarse a {
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.recordar a:hover {
+  text-decoration: underline;
+}
+.registrarse a:hover {
+  text-decoration: underline;
+}
+
+.aceptar a {
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.aceptar a:hover {
+  text-decoration: underline;
+}
+
+/* Errores */
+.error {
+  color: red;
+  display: none;
+}
+.visible {
+  display: block;
+}
+
+
